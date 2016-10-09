@@ -56,6 +56,10 @@ var urls = {
 
 var articles = {
 	'redcross.org' : ['NPR', 'http://www.npr.org/2015/06/03/411524156/in-search-of-the-red-cross-500-million-in-haiti-relief', 'Time', 'http://time.com/3908457/red-cross-six-homes-haiti/', 'Huffington Post', 'http://www.huffingtonpost.com/2015/06/04/red-cross-haiti-report_n_7511080.html'],
+	'autismspeaks.org' : ['Daily Beast', 'http://www.thedailybeast.com/articles/2014/06/13/autism-speaks-but-should-everyone-listen.html', 'Autistic Self Advocacy Network', 'http://autisticadvocacy.org/tag/autism-speaks/', 'Time', 'http://content.time.com/time/health/article/0,8599,1935959,00.html'],
+	'komen.org' : ['The Florida Times Union', 'http://jacksonville.com/reason/fact-check/2014-10-30/story/fact-check-susan-g-komen-giving-much-they-should', 'LA Times', 'http://www.latimes.com/business/hiltzik/la-fi-mh-susan-g-komen-20140108-story.html', 'NBC', 'http://investigations.nbcnews.com/_news/2013/06/10/18869742-susan-komen-ceos-salary-draws-fire-as-donations-drop-races-are-canceled'],
+	'worldwildlife.org' : ['The Guardian', 'https://www.theguardian.com/environment/2014/oct/04/wwf-international-selling-its-soul-corporations', 'PandaLeaks', 'http://www.pandaleaks.org/operation-lock/', 'Natural News', 'http://www.naturalnews.com/047517_World_Wildlife_Fund_corporate_practices_PandaLeaks.html' ],
+	'spcai.org' : ['CNN', 'http://www.cnn.com/2012/06/14/us/animal-charity-investigation/', 'The Huffington Post', 'http://www.huffingtonpost.com/2011/07/27/watchdog-gives-f-grade-to_n_911372.html', 'The Huffington Post', 'http://www.huffingtonpost.com/nathan-j-winograd/peta-aspca-hsus-shelters_b_2696911.html']
 }
 
 function renderStatus1(statusText1) {
