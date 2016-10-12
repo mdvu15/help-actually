@@ -13,9 +13,8 @@
   },
 
   "permissions": [
-	"http://www.doctorswithoutborders.org/",
   "tabs"
-  ], 
+  ],
 
   "page_action": {
     "default_icon": "icon128.png",

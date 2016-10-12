@@ -10,9 +10,6 @@ function getCurrentTabUrl(callback) {
 	  console.assert(typeof myUrl == 'string', 'tab.url should be a string');
 
     callback(myUrl);
-	  //if(typeof callback !== 'null'){
-    //callback(myUrl);
-    //}
   });
 }
 
@@ -193,7 +190,7 @@ window.onload =  function(myUrl) {
 		  });
 		document.getElementById('article2').addEventListener('click', function() {
 			chrome.tabs.create({url : articles[x][3]});
-		}); 
+		});
 		document.getElementById('article3').addEventListener('click', function() {
 			chrome.tabs.create({url : articles[x][5]});
 		});
