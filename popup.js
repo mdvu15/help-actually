@@ -23,7 +23,7 @@ var charities = {
   'ffcf.org' : ['Firefighter\'s Charitable Foundation', '0/4', 'National Fallen Firefighters Foundation', 'FDNY Foundation', 'Correctional Peace Officers Foundation'],
   'findthekids.org' : ['The Committee for Missing Children', '0/4', 'National Center for Missing & Exploited Children'],
   'cancersurvivorsfund.org' : ['Cancer Survivors\' Fund', '0/4', 'Neuroendocrine Tumor Research Foundation', 'National Pediatric Cancer Foundation', 'Bivona Child Advocacy Group'],
-  'spcai.org' : ['SPCA International', '0', 'Animal Welfare Association', 'Animal Welfare League', 'Animal Welfare Society'],
+  'spcai.org' : ['SPCA International', '0/4', 'Animal Welfare Association', 'Animal Welfare League', 'Animal Welfare Society'],
   'peta.org' : ['People for the Ethical Treatment of Animals (PETA)', '3/4', 'Last Chance for Animals',  'Animal Legal Defense Fund', 'Friends of Animals'],
   'clintonfoundation.org' : ['Clinton Foundation', '4/4', 'Bill and Melinda Gates Foundation', 'Timmy Global Health', 'World Help'],
   'salvationarmyusa.org' : ['The Salvation Army', 'N/A', 'Goodwill', 'Northwest Harvest', 'The Trevor Project'],
@@ -56,7 +56,9 @@ var articles = {
 	'autismspeaks.org' : ['Daily Beast', 'http://www.thedailybeast.com/articles/2014/06/13/autism-speaks-but-should-everyone-listen.html', 'Autistic Self Advocacy Network', 'http://autisticadvocacy.org/tag/autism-speaks/', 'Time', 'http://content.time.com/time/health/article/0,8599,1935959,00.html'],
 	'komen.org' : ['The Florida Times Union', 'http://jacksonville.com/reason/fact-check/2014-10-30/story/fact-check-susan-g-komen-giving-much-they-should', 'LA Times', 'http://www.latimes.com/business/hiltzik/la-fi-mh-susan-g-komen-20140108-story.html', 'NBC', 'http://investigations.nbcnews.com/_news/2013/06/10/18869742-susan-komen-ceos-salary-draws-fire-as-donations-drop-races-are-canceled'],
 	'worldwildlife.org' : ['The Guardian', 'https://www.theguardian.com/environment/2014/oct/04/wwf-international-selling-its-soul-corporations', 'PandaLeaks', 'http://www.pandaleaks.org/operation-lock/', 'Natural News', 'http://www.naturalnews.com/047517_World_Wildlife_Fund_corporate_practices_PandaLeaks.html' ],
-	'spcai.org' : ['CNN', 'http://www.cnn.com/2012/06/14/us/animal-charity-investigation/', 'The Huffington Post', 'http://www.huffingtonpost.com/2011/07/27/watchdog-gives-f-grade-to_n_911372.html', 'The Huffington Post', 'http://www.huffingtonpost.com/nathan-j-winograd/peta-aspca-hsus-shelters_b_2696911.html']
+	'spcai.org' : ['CNN', 'http://www.cnn.com/2012/06/14/us/animal-charity-investigation/', 'The Huffington Post', 'http://www.huffingtonpost.com/2011/07/27/watchdog-gives-f-grade-to_n_911372.html', 'The Huffington Post', 'http://www.huffingtonpost.com/nathan-j-winograd/peta-aspca-hsus-shelters_b_2696911.html'],
+  'peta.org' : ['The Huffington Post', 'http://www.huffingtonpost.com/nathan-j-winograd/peta-kills-puppies-kittens_b_2979220.html', 'The Washington Times', 'http://www.washingtontimes.com/news/2013/jul/8/peta-kills-2000-dogs-and-cats-each-year-report/', 'NY Times', 'http://www.nytimes.com/2013/07/07/us/peta-finds-itself-on-receiving-end-of-others-anger.html?_r=0'],
+  'diabetes.org' : ['The Huffington Post', 'http://www.huffingtonpost.com/2012/09/12/infocision-charity-scam_n_1871328.html', 'Natural News', 'http://www.naturalnews.com/021183_the_ADA_type-2_diabetes.html', 'Healthline', 'http://www.healthline.com/diabetesmine/ada-defends-telemarketing-snafu-amid-fallout']
 }
 
 function renderStatus1(statusText1) {
